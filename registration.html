@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="login.html">Login</a>
+        <a href="registration.html">Registration</a>
+        <a href="tests.html">Tests</a>
+        <a href="results.html">Results</a>
+    </div>
+
+   
+    <!-- Registration Form -->
+    <div class="login-container">
+        <h2>Register</h2>
+        <form action="tests.html" method="post">
+            <input type="text" id="register-username" name="username" placeholder="Username" required>
+            <input type="email" id="register-email" name="email" placeholder="Email" required>
+            <input type="password" id="register-password" name="password" placeholder="Password" required>
+            <input type="password" id="register-confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+            <button type="submit" class="btn">Register</button>
+        </form>
+
+        <!-- Link to Login Page -->
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+
+       
+    </div>
+
+</body>
+</html>
